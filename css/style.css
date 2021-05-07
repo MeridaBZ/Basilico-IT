@@ -1,0 +1,390 @@
+/*TOPBAR Y NAVBAR GENERALES*/
+.topbar {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    font-family: 'Poppins', sans-serif;
+    min-height: 90px;
+}
+
+/*PIE DE PAGINA*/
+body {
+    height: 100%;
+}
+/*INDEX*/
+.Background1 {
+    background-color: black;
+    background: url('../img/F1.png') #000;
+    height: 800px ;
+    background-repeat: no-repeat;
+    background-attachment:inherit ;
+    background-size: 100% 100%;
+}
+
+.Background2 {
+    margin-top: 25px;
+    margin-left: 25px;
+    background-color: white;
+}
+
+.bienvenida {
+    font-family: 'Parisienne', cursive;
+    text-align: center;
+    color: white;
+}
+
+.NHist {
+    font-family: 'Parisienne', cursive;
+}
+
+.nosotros {
+    font-family: 'Hind', sans-serif;
+}
+
+/*FOOTER*/
+.copyright{
+    background-color: black;
+    padding: 2px;
+    color: grey;
+    font-family: 'Hind', sans-serif;
+    text-align: center;
+  }
+
+/*PESTAÑA DE CARTA/MENU*/
+.Background5 {
+  background-color: black;
+  background: url('../img/F3.jpg');
+  height: 800px;
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-size: 100% 100%;
+}
+
+.carta {
+  font-family: 'Parisienne', cursive;
+  text-align: center;
+  color: white;
+}
+
+.Nonna {
+  font-family: 'Hind', sans-serif;
+  font-size: 18px;
+  color: white;
+  font-style: italic;
+  text-align: center;
+  
+}
+#nonna {
+  background: #00000083;
+  padding: 1px 0 10px 0;
+}
+
+.Delicias {
+  background-color: black;
+    color: black;
+    font-size: 14px;
+    font-family: 'Hind', sans-serif;
+}
+.card-body{
+  box-shadow: 0 0 20px 7px rgb(0, 0, 0, 0,1);
+}
+.card {
+  margin: 10px 5px;
+}
+
+.card-body a{
+  color: #0d920d;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: auto;
+  font-weight: 400;
+}
+
+.card-titulo {
+  font-family: 'Parisienne', cursive;
+  text-align: center;
+  color: rgb(255, 0, 0);
+  
+}
+.card-body a:hover{
+  color: #ff0000;
+  text-decoration: none;
+}
+
+
+
+
+/*PESTAÑA DE CONTACTO*/
+.Background3 {
+    background-color: black;
+    background: url('../img/F4.jpg');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 100% 100%;
+}
+#contact {
+    background: #00000049;
+    padding: 55px 0 40px 0;
+  }
+  
+  #contact #google-map {
+    height: 380px;
+    margin-bottom: 20px;
+    background: black;
+  }
+  
+  #contact .info {
+    color: #ffffff;
+  }
+  
+  #contact h2 {
+    font-family: 'Parisienne', cursive;
+    text-align: center;
+    color: white;
+  }
+  #contact p {
+    color: white;
+    font-size: 18px;
+    font-family: 'Hind', sans-serif;
+    text-align: center;
+}
+  #contact .info i {
+    font-size: 32px;
+    color: #c92d2d;
+    float: left;
+    line-height: 0;
+  }
+  
+  #contact .info p {
+    padding: 0 0 10px 50px;
+    margin-bottom: 20px;
+    line-height: 22px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Hind', sans-serif;
+  }
+  
+  #contact .info .email p {
+    padding-top: 5px;
+  }
+  
+  #contact .social-links {
+    padding: 20px 0;
+    margin-bottom: 20px;
+  }
+  
+  #contact .social-links a {
+    font-size: 18px;
+    background: rgb(255, 0, 0);
+    color: #fff;
+    line-height: 1;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #contact .social-links a i {
+    line-height: 0;
+  }
+  
+  #contact .social-links a:hover {
+    background: #0d920d;
+    color: #fff;
+  }
+  
+  #contact .email-form {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  #contact .email-form br + br {
+    margin-top: 25px;
+  }
+  
+  #contact .email-form {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  #contact .email-form {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  #contact .email-form {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 16px -8px 0;
+    border: 3px solid #0d920d;
+    border-top-color: #eee;
+    
+  }
+  
+  #contact .email-form input {
+    border-radius: 4;
+    box-shadow: none;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Hind', sans-serif;
+  }
+  #contact .email-form textarea{
+    border-radius: 4;
+    box-shadow: none;
+    font-size: 16px;
+    width: 100%;
+    margin: 5;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Hind', sans-serif;
+    resize: none;
+   
+  }
+  
+  .contform input {
+    display: block;
+    width: 100%;
+    margin: 15px 0px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Hind', sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    font-weight: 300;
+  }
+
+  #contact .email-form input::focus, #contact .email-form textarea::focus {
+    background-color: #0d920d;
+  }
+  
+  #contact .email-form button[type="submit"] {
+    background: #0d920d;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+  }
+  
+  #contact .email-form button[type="submit"]:hover {
+    background: #ff0000;
+  }
+  
+  
+
+
+/*PESTAÑA DE RESERVA*/
+.Background4 {
+    background-color: black;
+    background: linear-gradient(#0000009f, #0000009f), url('../img/F5.png') center/cover no-repeat;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.tittlereserva {
+  font-family: 'Parisienne', cursive;
+  text-align: center;
+  color: white;
+}
+.reserva {
+    text-align: left;
+}
+
+.Reservacion {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-family: 'Hind', sans-serif;
+}
+
+.INFOCV {
+    color: rgb(216, 36, 36);
+    font-size: 18px;
+}
+
+.banner h2{
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+.card-content{
+    background: rgba(0, 0, 0, 0.253);
+    height: 330px;
+}
+.card-content h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 25px 0 10px 0;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Hind', sans-serif;
+}
+.form-row{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+form select, form input{
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Hind', sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    font-weight: 300;
+}
+form input[type = text], form input[type = number], form input::placeholder, select{
+    color: #9a9a9a;
+}
+form input[type = submit]{
+    color: rgb(255, 255, 255);
+    background: #348100;
+    padding: 12px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form input[type = submit]:hover{
+    background: red;
+    opacity: 0.9;
+}
+@media(max-width: 992px){
+    .card-container{
+        grid-template-columns: 100%;
+        width: 100vw;
+    }
+    .card-img{
+        height: 330px;
+    }
+}
+
